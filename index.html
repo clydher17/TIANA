@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="css/inicio.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet"/>
+<title>Sitio Web</title>
+<style>
+.tiana-footer { text-align:center; padding:22px 12px; margin-top:28px; background:#f7f2ee; color:#55483f; font:14px Arial,sans-serif; }
+</style></head>
+<body>
+<h1>TIANA</h1>
+<header>
+<nav class="navegacion">
+<ul class="menu">
+<li><a href="index.html">INICIO</a></li>
+<li><a href="pages/productos.html">PRODUCTOS</a></li>
+<li><a href="pages/contacto.html">CONTACTO</a></li>
+<li><a href="pages/mayoristas.html">MAYORISTAS</a></li>
+</ul>
+</nav>
+</header>
+<section aria-label="Galería de calzados TIANA" aria-roledescription="carrusel" class="carrusel">
+<div class="carrusel-pista">
+<div class="carrusel-slide activo"><img alt="Sandalias TIANA, modelo 1" src="imagenes/sandalias/sandalias01.png"/></div>
+<div class="carrusel-slide"><img alt="Zapatillas TIANA, modelo 1" src="imagenes/zapatillas/zapatillas01.png"/></div>
+<div class="carrusel-slide"><img alt="Plataformas TIANA, modelo 1" src="imagenes/plataformas/plataforma01.png"/></div>
+<div class="carrusel-slide"><img alt="Sandalias TIANA, modelo 2" src="imagenes/sandalias/sandalias02.png"/></div>
+</div>
+<button aria-label="Imagen anterior" class="carrusel-flecha anterior" type="button">❮</button>
+<button aria-label="Imagen siguiente" class="carrusel-flecha siguiente" type="button">❯</button>
+<div aria-label="Elegir imagen" class="carrusel-indicadores"></div>
+</section>
+<script src="js/main.js"></script>
+<script src="js/carrusel.js"></script>
+
+
+<footer class="tiana-footer">© 2026 TIANA – Calzados para mujer</footer></body>
+</html>

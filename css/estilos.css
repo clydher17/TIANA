@@ -1,0 +1,139 @@
+h1{
+    font-size: 2cm;
+    font-family: 'Bree Serif', serif;
+    color:black;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+header{
+    font-size: 1.5cm;
+    color:black;
+    font-family: 'Bree Serif', serif;
+    width: 100%;
+}
+#figura01{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: black;
+    font-size: 0.5cm;
+    width: 100%;
+} 
+#figura02{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center center;*/
+    background-attachment: fixed;
+    width: 46%;
+    height: 70%;
+    float: left;
+    margin-left: 5px;
+    margin: 20px;
+}
+#figura03{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center center;*/
+    background-attachment: fixed;
+    width: 46%;
+    height: 70%;
+    float: right;
+    margin-left: 5px;
+    margin: 20px;
+}
+.navegacion{
+    padding: 0%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.navegacion ul{
+    margin: 0;
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-size: 0.6cm;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+color:#EC7063;
+transition: all .3s;
+}
+.menu iframe{
+    position: absolute;
+}
+/*
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 130%;
+    display: none;
+}*/
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+nav a{
+    font-size: 0.7cm;
+    color: black;
+}
+body{
+    font-family: Arial;
+    background-color:#F5CBA7;
+    box-sizing: border-box;
+}
+.slider{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0%;
+    width: 300%;
+
+    animation: cambio 20s infinite alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 50%;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}    
+}
+.contenido{
+    font-family: 'Source Code Pro', monospace;
+}
+.contenido a:hover{
+    color:#EC7063;
+    transition: all .3s;
+}

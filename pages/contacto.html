@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="../css/contacto.css">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>TIANA</h1>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="../pages/productos.html">PRODUCTOS</a></li>
+
+                
+
+
+                <ul class ="submenu">
+                    <li><a href="#">Zapatillas</a></li>
+                    <li><a href="#">Zapatos</a></li>
+                    <li><a href="#">Botas</a></li>
+                    <li><a href="#">Sandalias</a></li>
+                    <li><a href="#">Plataformas</a></li>
+                </ul>
+                </li>
+                <li><a href="../pages/contacto.html">CONTACTO</a></li>
+                <li><a href="../pages/mayoristas.html">MAYORISTAS</a></li>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section><img src="../imagenes/varias/tyana10.jpg" alt="imagen 01"></section>
+        <section>
+            <div id="formulario">
+                <form id="formContacto">
+                    <p>Nombre:</p>
+                    <input type="text" id="nombreContacto" class="field" required><br>
+                    <p>Email:</p>
+                    <input type="email" id="emailContacto" class="field" required><br>
+                    <p>Asunto:</p>
+                    <input type="text" id="asuntoContacto" class="field" required><br>
+                    <p>Mensaje:</p>
+                    <textarea id="mensajeContacto" class="field" required></textarea><br>
+                    <p class="center-content">
+                        <input type="submit" class="btn btn-green" value="Enviar">
+                    </p>
+                    <p id="respuestaContacto" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="../js/contacto.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+h1{
+    font-size: 2cm;
+    font-family: 'Bree Serif', serif;
+    color:black;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    }
+    header{
+    font-size: 1.5cm;
+    color:black;
+    font-family: 'Bree Serif', serif;
+    width: 100%;
+    }
+    #figura01{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: black;
+    font-size: 0.5cm;
+    width: 100%;
+    } 
+    #figura02{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center center;*/
+    background-attachment: fixed;
+    width: 46%;
+    height: 70%;
+    float: left;
+    margin-left: 5px;
+    margin: 20px;
+    }
+    #figura03{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center center;*/
+    background-attachment: fixed;
+    width: 46%;
+    height: 70%;
+    float: right;
+    margin-left: 5px;
+    margin: 20px;
+    }
+    .navegacion{
+    padding: 0%;
+    background: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    }
+    .navegacion ul{
+    margin: 0;
+    list-style: none;
+    }
+    .menu > li{
+    position: relative;
+    display: inline-block;
+    }
+    .menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-size: 0.6cm;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+    }
+    .menu li a:hover{
+    color:#EC7063;
+    transition: all .3s;
+    }
+    .menu iframe{
+    position: absolute;
+    }
+    .submenu{
+    position: absolute;
+    background: #333333;
+    width: 130%;
+    display: none;
+    }
+    
+    .submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Bree Serif', serif;
+    text-decoration: none;
+    }
+    .menu li:hover .submenu{
+    display: block;
+    }
+    nav a{
+    font-size: 0.7cm;
+    color: black;
+    }
+    body{
+    font-family: Arial;
+    background-color:#F5CBA7;
+    box-sizing: border-box;
+    }
+    /* Carrusel principal de Inicio */
+    .carrusel {
+        position: relative;
+        width: min(92%, 1050px);
+        margin: 28px auto 38px;
+        overflow: hidden;
+        border-radius: 16px;
+        background: #fff7f1;
+        box-shadow: 0 8px 25px rgba(0,0,0,.12);
+    }
+    .carrusel-pista { position: relative; height: clamp(280px, 48vw, 510px); }
+    .carrusel-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity .5s ease; display: flex; align-items: center; justify-content: center; }
+    .carrusel-slide.activo { opacity: 1; visibility: visible; }
+    .carrusel-slide img { width: 100%; height: 100%; object-fit: contain; padding: 12px; box-sizing: border-box; }
+    .carrusel-flecha { position: absolute; top: 50%; transform: translateY(-50%); border: 0; border-radius: 50%; background: rgba(0,0,0,.55); color: white; width: 44px; height: 44px; font-size: 25px; cursor: pointer; z-index: 2; }
+    .carrusel-flecha:hover, .carrusel-flecha:focus-visible { background: #a84338; }
+    .carrusel-flecha.anterior { left: 12px; }
+    .carrusel-flecha.siguiente { right: 12px; }
+    .carrusel-indicadores { position: absolute; bottom: 12px; left: 0; right: 0; display: flex; justify-content: center; gap: 9px; z-index: 2; }
+    .carrusel-punto { width: 11px; height: 11px; border: 0; border-radius: 50%; background: #c9b3a7; cursor: pointer; padding: 0; }
+    .carrusel-punto.activo { background: #a84338; }
+    @media (max-width: 600px) { .carrusel { width: 96%; } .carrusel-pista { height: 300px; } .carrusel-flecha { width: 36px; height: 36px; font-size: 20px; } }
+    @media (prefers-reduced-motion: reduce) { .carrusel-slide { transition: none; } }
+    .contenido{
+    font-family: 'Source Code Pro', monospace;
+    }
+    .contenido a:hover{
+    color:#EC7063;
+    transition: all .3s;
+    }
+    
